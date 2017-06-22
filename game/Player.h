@@ -1,4 +1,5 @@
-#pragma once
+#ifndef PLAYER_H
+#define PLAYER_H
 
 class Player
 {
@@ -14,3 +15,5 @@ protected:
 	int	shipsAlive_;
 	int	points_;
 };
+
+#endif

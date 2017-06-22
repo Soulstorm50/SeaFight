@@ -1,4 +1,5 @@
-#pragma once
+#ifndef GRID_H
+#define GRID_H
 
 class Grid
 {
@@ -19,3 +20,5 @@ private:
 	int	ships_[10][10]; 
 	bool areShipsOnMap;
 };
+
+#endif

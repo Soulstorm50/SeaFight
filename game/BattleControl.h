@@ -1,4 +1,5 @@
-#pragma once
+#ifndef BATTLECONTROL_H
+#define BATTLECONTROL_H
 
 class BattleControl
 {
@@ -19,3 +20,5 @@ private:
 	int	lastX_;
 	int	lastY_;
 };
+
+#endif
